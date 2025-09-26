@@ -1,0 +1,5 @@
+POST https://pal-computer-vision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2024-02-01&features=caption,objects,read
+Content-Type: application/octet-stream
+Ocp-Apim-Subscription-Key: Ew2wBiUwjbu7giZERDhZhEbqD3YyE92L3aWJp5TM2DvTJlPrJK74JQQJ99BIACYeBjFXJ3w3AAAFACOGYgZw
+
+< ./images/ocrImage.JPG
